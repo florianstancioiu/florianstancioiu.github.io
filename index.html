@@ -11,6 +11,15 @@
         object-fit: cover;
         position: center;
       }
+
+      .visit-website-link {
+        display: block;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: green;
+        font-size: 20px;
+        text-decoration: none !important;
+      }
     </style>
   </head>
 
@@ -179,6 +188,13 @@
       <div class="container">
         <h1 class="title">Frontendmentor Projects</h1>
         <hr />
+        <p style="padding-bottom: 2.5rem">
+          These are relatively recent challenges that I completed on the
+          frontendmentor.io website, they are not fully functional websites,
+          they are meant to test the developer's abilities to convert the design
+          into HTML, CSS and JavaScript.
+        </p>
+
         <div class="tile is-ancestor">
           <div class="tile is-vertical is-12">
             <div class="tile">
@@ -192,19 +208,31 @@
                       src="img/manage-landing-page.png"
                     />
                   </figure>
+                  <a
+                    target="_blank"
+                    class="visit-website-link"
+                    href="https://florianstancioiu.github.io/manage-landing-page/"
+                    >Visit Website</a
+                  >
                 </article>
               </div>
 
               <div class="tile is-parent">
                 <article class="tile is-child notification">
                   <p class="title">Crowdfunding product page</p>
-                  <figure class="image is-3by2">
+                  <figure class="image is-4by3">
                     <img
                       class="modal-trigger cover-image"
                       data-target="project-1-modal"
                       src="img/crowdfunding-product-page.png"
                     />
                   </figure>
+                  <a
+                    class="visit-website-link"
+                    target="_blank"
+                    href="https://florianstancioiu.github.io/crowdfunding-product-page/"
+                    >Visit Website</a
+                  >
                 </article>
               </div>
 
@@ -218,6 +246,12 @@
                       src="img/fylo-dark-theme-landing-page.png"
                     />
                   </figure>
+                  <a
+                    target="_blank"
+                    class="visit-website-link"
+                    href="https://florianstancioiu.github.io/fylo-dark-theme-landing-page"
+                    >Visit Website</a
+                  >
                 </article>
               </div>
             </div>
@@ -232,10 +266,16 @@
                   <figure class="image is-4by3">
                     <img
                       class="modal-trigger cover-image"
-                      data-target="project-5-modal"
+                      data-target="project-4-modal"
                       src="img/todo-app.png"
                     />
                   </figure>
+                  <a
+                    target="_blank"
+                    class="visit-website-link"
+                    href="https://florianstancioiu.github.io/todo-app/"
+                    >Visit Website</a
+                  >
                 </article>
               </div>
 
@@ -245,10 +285,16 @@
                   <figure class="image is-4by3">
                     <img
                       class="modal-trigger cover-image"
-                      data-target="project-6-modal"
+                      data-target="project-5-modal"
                       src="img/e-commerce-product-page.png"
                     />
                   </figure>
+                  <a
+                    target="_blank"
+                    class="visit-website-link"
+                    href="https://florianstancioiu.github.io/ecommerce-product-page/"
+                    >Visit Website</a
+                  >
                 </article>
               </div>
 
@@ -258,10 +304,16 @@
                   <figure class="image is-4by3">
                     <img
                       class="modal-trigger cover-image"
-                      data-target="project-4-modal"
+                      data-target="project-6-modal"
                       src="img/agency-landing-page.png"
                     />
                   </figure>
+                  <a
+                    target="_blank"
+                    class="visit-website-link"
+                    href="https://florianstancioiu.github.io/sunnyside-agency-landing-page-main/"
+                    >Visit Website</a
+                  >
                 </article>
               </div>
             </div>
@@ -379,35 +431,33 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Project title</p>
+          <p class="modal-card-title">Crowdfunding product page</p>
           <button class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
           <div id="project-1-modal-carousel" class="carousel">
             <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
+              <img
+                class="cover-image"
+                src="img/crowdfunding-product-page.png"
+              />
             </figure>
           </div>
 
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <a
+              class="visit-website-link"
+              target="_blank"
+              href="https://florianstancioiu.github.io/crowdfunding-product-page/"
+              >Visit Website</a
+            >
 
             <div class="tags">
-              <span class="tag">angular</span>
-              <span class="tag">mongo</span>
-              <span class="tag">typscript</span>
-              <span class="tag">node</span>
+              <span class="tag">react</span>
+              <span class="tag">storybook</span>
+              <span class="tag">redux toolkit</span>
+              <span class="tag">vite</span>
+              <span class="tag">mobile first</span>
             </div>
           </div>
         </section>
@@ -421,35 +471,29 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Project title</p>
+          <p class="modal-card-title">Manage landing page</p>
           <button class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
           <div id="project-2-modal-carousel" class="carousel">
             <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
+              <img class="cover-image" src="img/manage-landing-page.png" />
             </figure>
           </div>
 
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-
+            <a
+              target="_blank"
+              class="visit-website-link"
+              href="https://florianstancioiu.github.io/manage-landing-page/"
+              >Visit Website</a
+            >
             <div class="tags">
-              <span class="tag">angular</span>
-              <span class="tag">mongo</span>
-              <span class="tag">typscript</span>
-              <span class="tag">node</span>
+              <span class="tag">react</span>
+              <span class="tag">framer motion</span>
+              <span class="tag">css modules</span>
+              <span class="tag">vite</span>
+              <span class="tag">mobile first</span>
             </div>
           </div>
         </section>
@@ -463,34 +507,31 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Project title</p>
+          <p class="modal-card-title">Fylo dark theme landing page</p>
           <button class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
           <div id="project-3-modal-carousel" class="carousel">
             <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
+              <img
+                class="cover-image"
+                src="img/fylo-dark-theme-landing-page.png"
+              />
             </figure>
           </div>
 
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <a
+              target="_blank"
+              class="visit-website-link"
+              href="https://florianstancioiu.github.io/fylo-dark-theme-landing-page"
+              >Visit Website</a
+            >
             <div class="tags">
-              <span class="tag">angular</span>
-              <span class="tag">mongo</span>
-              <span class="tag">typscript</span>
-              <span class="tag">node</span>
+              <span class="tag">react</span>
+              <span class="tag">vite</span>
+              <span class="tag">css modules</span>
+              <span class="tag">mobile first</span>
             </div>
           </div>
         </section>
@@ -504,34 +545,28 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Project title</p>
+          <p class="modal-card-title">Todo light-dark mode app</p>
           <button class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
           <div id="project-4-modal-carousel" class="carousel">
             <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
+              <img class="cover-image" src="img/todo-app.png" />
             </figure>
           </div>
 
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <a
+              target="_blank"
+              class="visit-website-link"
+              href="https://florianstancioiu.github.io/todo-app/"
+              >Visit Website</a
+            >
             <div class="tags">
-              <span class="tag">angular</span>
-              <span class="tag">mongo</span>
-              <span class="tag">typscript</span>
-              <span class="tag">node</span>
+              <span class="tag">react</span>
+              <span class="tag">vite</span>
+              <span class="tag">css modules</span>
+              <span class="tag">mobile first</span>
             </div>
           </div>
         </section>
@@ -545,34 +580,27 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Project title</p>
+          <p class="modal-card-title">E-commerce product page</p>
           <button class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
           <div id="project-5-modal-carousel" class="carousel">
             <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
+              <img class="cover-image" src="img/e-commerce-product-page.png" />
             </figure>
           </div>
 
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <a
+              target="_blank"
+              class="visit-website-link"
+              href="https://florianstancioiu.github.io/ecommerce-product-page/"
+              >Visit Website</a
+            >
             <div class="tags">
-              <span class="tag">angular</span>
-              <span class="tag">mongo</span>
-              <span class="tag">typscript</span>
-              <span class="tag">node</span>
+              <span class="tag">react</span>
+              <span class="tag">vite</span>
+              <span class="tag">mobile first</span>
             </div>
           </div>
         </section>
@@ -586,34 +614,27 @@
       <div class="modal-background"></div>
       <div class="modal-card">
         <header class="modal-card-head">
-          <p class="modal-card-title">Project title</p>
+          <p class="modal-card-title">Agency landing page</p>
           <button class="delete" aria-label="close"></button>
         </header>
         <section class="modal-card-body">
           <div id="project-6-modal-carousel" class="carousel">
             <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/1.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/2.png" />
-            </figure>
-            <figure class="image is-4by3 carousel-cell">
-              <img src="img/carousel/3.png" />
+              <img class="cover-image" src="img/agency-landing-page.png" />
             </figure>
           </div>
 
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <a
+              target="_blank"
+              class="visit-website-link"
+              href="https://florianstancioiu.github.io/sunnyside-agency-landing-page-main/"
+              >Visit Website</a
+            >
             <div class="tags">
-              <span class="tag">angular</span>
-              <span class="tag">mongo</span>
-              <span class="tag">typscript</span>
-              <span class="tag">node</span>
+              <span class="tag">html</span>
+              <span class="tag">css</span>
+              <span class="tag">mobile first</span>
             </div>
           </div>
         </section>
